@@ -1,0 +1,37 @@
+.Comment {
+	max-width: 850px;
+	padding: 15px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	border-radius: 18px;
+}
+
+.author {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.author__avatar {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.author__name {
+	margin: 0;
+	padding-left: 13px;
+}
+
+.MyBtn {
+	border: none;
+	background: lawngreen
+}
+
+.clock {
+	display: none;
+}
+
+.active {
+	display: block
+}
